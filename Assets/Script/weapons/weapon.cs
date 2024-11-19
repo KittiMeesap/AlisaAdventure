@@ -7,9 +7,9 @@ public class weapon : MonoBehaviour
     // Start is called before the first frame update
     public GameObject prefad;
     public float damege;
-    private float speed;
-    private float cooldowmDuration;
-    private float currentCooldowm;
+    public float speed;
+    public float cooldowmDuration;
+    public float currentCooldowm;
     public int pierce;
     protected virtual void Start()
     {
