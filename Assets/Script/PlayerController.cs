@@ -10,7 +10,7 @@ public class Playercontroll : MonoBehaviour
     public Camera cam;
 
     private Vector2 movement;
-    private Vector2 mousePos;
+    public Vector2 mousePos;
     
     void Start()
     {
@@ -33,7 +33,7 @@ public class Playercontroll : MonoBehaviour
 
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        rb.rotation = angle+90;
     }
 
     
