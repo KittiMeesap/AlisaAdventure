@@ -324,6 +324,8 @@ GameObject:
   m_Component:
   - component: {fileID: 711026269}
   - component: {fileID: 711026270}
+  - component: {fileID: 711026271}
+  - component: {fileID: 711026272}
   m_Layer: 0
   m_Name: WeaponControll
   m_TagString: Untagged
@@ -359,13 +361,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damege: 0
-  cooldowmDuration: 5
+  cooldowmDuration: 1
   currentCooldowm: 0
   pierce: 0
   WeaponControll: {fileID: 711026269}
   pc: {fileID: 0}
   prefad: {fileID: 7072801307091213853, guid: 61ba8c3ca9475994d83dd68710129b0e, type: 3}
   speed: 10
+--- !u!114 &711026271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711026268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94fceb0dcb802b4e9f1fc5f09c5f15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damege: 0
+  cooldowmDuration: 1
+  currentCooldowm: 0
+  pierce: 0
+  WeaponControll: {fileID: 711026269}
+  pc: {fileID: 0}
+  prefad: {fileID: 7936322586951499636, guid: b0e31bfb02ab8044fb4b02f724006a1e, type: 3}
+  size: 2
+--- !u!114 &711026272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711026268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8db6f97fdc8f84479018ad40333d66a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711246664
 GameObject:
   m_ObjectHideFlags: 0
